@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
+  <title>Mi Portfolio</title>
+</head>
+
+<body>
+  <!-- MENU NAVBAR -->
+  <div class="contenedor-header">
+    <header>
+      <div class="logo">
+        <a href="#">Leandro</a>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li><a href="#inicio" onclick="selecionar()">INICIO</a></li>
+          <li><a href="#sobremi" onclick="selecionar()">SOBRE MÍ</a></li>
+          <li><a href="#skills" onclick="selecionar()">SKILLS</a></li>
+          <li><a href="#curriculum" onclick="selecionar()">CURRICULUM</a></li>
+          <!-- <li><a href="#portfolio" onclick="selecionar()">PORTFOLIO</a></li> -->
+          <li><a href="#contacto" onclick="selecionar()">CONTACTO</a></li>
+        </ul>
+      </nav>
+      <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+    </header>
+
+
+  </div>
+  <!-- SECCION INICIO -->
+  <section id="inicio" class="inicio">
+    <div class="contenido-banner">
+      <div class="contenedor-img">
+        <img src="./img/perfil4.png" alt="Foto de perfíl">
+      </div>
+      <h1>LEANDRO PERIGO</h1>
+      <H2>Full Stack Web Developer</H2>
+      <div class="rsociales">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-skype"></i></a>
+      </div>
+    </div>
+  </section>
+  <!-- SECCION SOBRE MI -->
+  <section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+      <h2>Sobre Mí</h2>
+      <p><span>Hola, me llamo Leandro Perigo</span> Soy un entusiasta cuando se trata de aprender y desarrollar nuevas
+        habilidades. Mi formación combina el autoaprendizaje y la educación formal. Me considero un amante de la
+        tecnología y las posibilidades que nos ofrece. Soy una persona sociable a la que le gusta disfrutar de su tiempo
+        libre con su familia y amigos.</p>
+
+      <div class="fila">
+        <!-- Datos Personales -->
+        <div class="col">
+          <h3>Datos Personales</h3>
+          <ul>
+            <li>
+              <strong>Teléfono</strong>
+              +54 9 3413033733
+            </li>
+            <li>
+              <strong>Email</strong>
+              leaperigo20@mail.com
+            </li>
+            <li>
+              <strong>Ciudad</strong>
+              Rosario, Argentina
+            </li>
+            <li>
+              <strong>Cargo</strong>
+              <span>WEB DEVELOPER</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Intereses -->
+        <div class="col">
+          <h3>Intereses</h3>
+          <div class="contenedor-intereses">
+            <div class="interes">
+              <i class="fa-solid fa-person-running"></i>
+              <span>DEPORTES</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-keyboard"></i>
+              <span>PROGRAMAR</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-gamepad"></i>
+              <span>JUEGOS</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-headphones"></i>
+              <span>MÚSICA</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-book"></i>
+              <span>LIBROS</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-plane"></i>
+              <span>VIAJAR</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-kitchen-set"></i>
+              <span>COCINAR</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-paw"></i>
+              <span>MASCOTAS</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <button>
+        Descargar CV <i class="fa-solid fa-download"></i>
+        <span class="overlay"></span>
+      </button>
+    </div>
+  </section>
+  <!-- SECCION SKILLS -->
+  <section class="skills" id="skills">
+    <div class="contenido-seccion">
+      <h2>Skills</h2>
+      <div class="fila">
+        <!-- Technical SKILLS -->
+
+        <div class="col">
+          <h3>Technical Skills</h3>
+          <div class="skill">
+            <span>Javascript</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>84%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>HTML & CSS</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>89%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>React JS</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>77%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Node JS</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>MongoDB</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>77%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Ruby</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>63%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Professional SKILLS -->
+        <div class="col">
+          <h3>Professional Skills</h3>
+          <div class="skill">
+            <span>Comunicación</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>84%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Trabajo en Equipo</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>89%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Creatividad</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>77%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Adaptación al cambio</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>87%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Gestión del tiempo</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>77%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Resolución de problemas</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>91%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Habilidades interpersonales</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>69%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--SECCION CV-->
+  <section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+      <h2>Curriculum</h2>
+      <div class="fila">
+        <div class="col izquierda">
+          <h3>Educación</h3>
+          <div class="item izq">
+            <h4>JavaScript and Data Structures</h4>
+            <span class="casa">Free Code Camp</span>
+            <span class="fecha">2022 - 2022</span>
+            <p>
+              Fundamentos de JavaScript: variables, matrices, objetos, bucles y funciones.
+              Creación de algoritmos para manipular cadenas, factorizar números.
+              Paradigmas de programación: Programación Orientada a Objetos (OOP) y Programación Funcional (FP).
+
+            </p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+          <div class="item izq">
+            <h4>Responsive Web Design</h4>
+            <span class="casa">Free Code Camp</span>
+            <span class="fecha">2022 - 2022</span>
+            <p>
+              Lenguajes utilizados por desarrolladores para crear páginas web: HTML y CSS (hojas de estilo en cascada).
+              Técnicas modernas como variables CSS , mejores prácticas de accesibilidad.
+              Creación de páginas web que respondan a diferentes tamaños de pantalla.
+              Flexbox y Grid.
+            </p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+          <div class="item izq">
+            <h4>Back End Development and APIs</h4>
+            <span class="casa">Free Code Camp</span>
+            <span class="fecha">2022 - 2022</span>
+            <p>
+              Desarrollo de back-end, escritura de aplicaciones de back-end con Node.js y npm. Creacion de aplicaciones
+              web con el marco Express y armado de un microservicio People Finder con MongoDB y la biblioteca Mongoose.
+            </p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+          <div class="item izq">
+            <h4>Analista Superior en RRHH</h4>
+            <span class="casa">IESERH</span>
+            <span class="fecha">2017 - Presente</span>
+            <p>
+              Contratación y selección de personal. Formación y desarrollo de empleados. Planificación de recursos
+              humanos.
+              Diseño y análisis de puestos de trabajo.
+            </p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+          <div class="item izq">
+            <h4>Técnico en Electrónica</h4>
+            <span class="casa">E.E.T. N°464</span>
+            <span class="fecha">1995 - 2000</span>
+            <p>
+              Montar e instalar, operar y mantener componentes, productos, equipos e instalaciones de electrónica
+              analógica y/o digital; realizar proyectos, diseños y desarrollos de tecnología estándar.
+            </p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col derecha">
+          <h3>Experiencia de trabajo</h3>
+          <div class="item der">
+            <h4>Web Developer</h4>
+            <span class="casa">Satelitech S.A.</span>
+            <span class="fecha">2022 - Actualidad</span>
+            <p>
+              Aptitudes: SQL · MongoDB · Desarrollo web back end · React.js · React Hooks · CSS Flexbox · HTML5 · Hojas
+              de estilos en cascada (CSS) · JavaScript · Desarrollo web
+            </p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+          <div class="item der">
+            <h4>Encargado Comercial</h4>
+            <span class="casa">Athens Chemical Group</span>
+            <span class="fecha">2021 - 2022</span>
+            <p>
+              Tareas: Supervisar al personal de ventas, diseñar y presentar estrategias de ventas, elaborar
+              presupuestos, generar buenas relaciones con grandes clientes y resolver los problemas, quejas o consultas
+              que surjan relacionadas con el sector .
+              Aptitudes: Desarrollo de oportunidades de negocio · Ventas · Comercio electrónico · Negociación ·
+              Liderazgo
+              de equipos · Resolución de problemas
+            </p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+          <div class="item der">
+            <h4>Encargado</h4>
+            <span class="casa">Purozono Rosario S.A.</span>
+            <span class="fecha">2020 - 2021</span>
+            <p>
+              Encargado en Purozono Rosario, empresa dedicada a la desinfección y sanitización de ambientes en seco con
+              Ozono, un método 100% ecológico, 10 veces más potente que el cloro y elimina todo tipo de microorganismos
+              (Virus, bacterias, esporas, gérmenes, hongos y ácaros). Este proceso se lleva a cabo con la tecnología más
+              moderna del mercado.
+            </p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+          <div class="item der">
+            <h4>Representante Comercial</h4>
+            <span class="casa">Gurú Soluciones S.A.</span>
+            <span class="fecha">2016 - 2018</span>
+            <p>
+              Asesor de cuentas, armado de presupuestos de Marketing Digital a medidas, Facebook Ads, Google Adwors,
+              diseño web.
+            </p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+          <div class="item der">
+            <h4>Representante Comercial</h4>
+            <span class="casa">Citizens S.A.</span>
+            <span class="fecha">2016 - 2018</span>
+            <p>
+              Asesor de mercadeo, armado de cartera de clientes, asesoramiento personalizado a lo largo de todo el
+              territorio nacional.
+            </p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--SECCION PORTFOLIO-->
+  <!--  <section id="portfolio" class="portfolio">
+    <div class="contenedor-seccion">
+      <h2>PORTFOLIO</h2>
+      <div class="galeria">
+        <div class="proyecto">
+          <img src="/img/Business-Website-Example-4.jpg" alt="porfolio1">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>Fotografia</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <img src="/img/hardboiled2.jpg" alt="porfolio2">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>Fotografia</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <img src="/img/066de7d176b5d943df3601d83d2e755eb5686df3-1600x900.webp" alt="porfolio3">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>Fotografia</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <img src="/img/602f2109757041b232d834e2_601b1c6c1d0c39e266399be0_soundstripe.jpeg" alt="porfolio4">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>Fotografia</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section> -->
+
+  <!--SECCION CONTACTO-->
+  <section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+      <h2>CONTACTO</h2>
+      <div class="fila">
+        <!--Formulario-->
+        <div class="col">
+          <input type="text" placeholder="Nombre">
+          <input type="number" placeholder="Teléfono">
+          <input type="email" placeholder="Email">
+          <input type="text" placeholder="Tema">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+          <button>
+            Enviar Mensaje<i class="fa-regular fa-paper-plane"></i>
+            <span class="overlay"></span>
+          </button>
+        </div>
+        <!--Mapa-->
+        <div class="col">
+          <img src="/img/EhAUjkZXsAQUHwR.png" alt="mapa">
+          <div class="info">
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                Urquiza 3771, Rosario Sta Fé
+              </li>
+              <li>
+                <i class="fa-solid fa-mobile-screen"></i>
+                Contactate: +5493413033733
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                Email: leaperigo20@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer>
+    <a href="#inicio" class="arriba">
+      <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="rsociales">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-skype"></i></a>
+    </div>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+
+</html>
